@@ -18,7 +18,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: #EC7C3D;
+    background-color: white;
     color: white;
 }
 
@@ -32,11 +32,13 @@ nav {
 
 .nav-logo ul li {
     list-style: none;
-    font-size: 11px; 
+    font-size: 11px;
     display: inline-block;
     text-align: left;
 }
-.nav-logo ul li p, img {
+
+.nav-logo ul li p,
+img {
     max-height: 50px;
 }
 
@@ -55,7 +57,7 @@ nav {
 
 .main-nav ul li a {
     text-decoration: none;
-    color: white;
+    color: green;
 }
 
 .main-nav ul li a:hover {
@@ -64,7 +66,7 @@ nav {
 
 
 /*********** Main Header Section *************/
-header {
+.hero {
     background-image: url(../img/tea3.jpeg);
     background-size: cover;
     background-position: center;
@@ -73,6 +75,11 @@ header {
     height: 100vh;
     overflow-y: hidden;
     position: relative;
+
+}
+
+.hero h1 {
+    padding-top: 300px;
 }
 
 .main {
