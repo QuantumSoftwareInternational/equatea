@@ -1,5 +1,6 @@
 @import url("slider-style.scss");
 
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +27,6 @@ nav {
 
 /********* Logo ***********/
 .nav-logo {
-    width: 35%;
     float: left;
     background-color: white;
     color: green;
@@ -44,7 +44,6 @@ img {
     max-height: 50px;
 }
 
-
 /*********** Main Nav *************/
 .main-nav {
     float: right;
@@ -54,7 +53,9 @@ img {
 .main-nav ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .main-nav ul li a {
@@ -66,6 +67,13 @@ img {
     text-decoration: underline;
 }
 
+.hamburger {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+}
 
 /*********** Main Header Section *************/
 .hero {
@@ -74,15 +82,74 @@ img {
     background-position: center;
     background-repeat: no-repeat;**/
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     overflow-y: hidden;
     position: relative;
-
 }
+
 .hero {
     padding-top: 50px;
 }
 
 .main {
+    background-color: red;
     height: 500px;
+}
+
+.main2 {
+    height: 500px;
+    background-color: green;
+}
+
+/******************** Mobile ***********************/
+@media only screen and (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .is-visible {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: inline-block;
+        margin-right: 40px;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+    }
+
+    .nav-logo {
+        width: 70%;
+    }
+
+    .hero {
+        padding-top: 0px;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 2px;
+        display: block;
+        background-color: green;
+        margin: 8px auto;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+    }
+
+
 }
