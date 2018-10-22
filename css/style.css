@@ -59,7 +59,6 @@ img {
     margin: 0 20px;
     font-size: 2em;
     font-weight: 500;
-
 }
 
 .main-nav ul li a:hover {
@@ -69,7 +68,6 @@ img {
 .main-nav ul li a {
     text-decoration: none;
     color: green;
-
     padding: 20px 0;
 
 }
@@ -97,7 +95,7 @@ img {
 
 
 .main {
-    background-color: red;
+    background-color: #EE7D31;
     height: 500px;
 }
 
