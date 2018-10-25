@@ -151,7 +151,7 @@ svg {
 
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url('/img/coffee.jpeg');
+  background-image: url('../img/coffee.jpeg');
 }
 
 .slide:nth-child(1) .slide__overlay-path {
@@ -170,7 +170,7 @@ svg {
 
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url('/img/cropped-tea-farmer.jpeg');
+  background-image: url('../img/cropped-tea-farmer.jpeg');
 }
 
 .slide:nth-child(2) .slide__overlay-path {
@@ -189,7 +189,7 @@ svg {
 
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url('/img/espresso.jpeg');
+  background-image: url('../img/espresso.jpeg');
 }
 
 .slide:nth-child(3) .slide__overlay-path {
