@@ -228,6 +228,7 @@ svg {
   width: 100%;
   height: 100%;
 }
+
 /**change the size of the overlaying slider*/
 .slide__overlay {
   position: absolute;
@@ -246,6 +247,7 @@ svg {
     display: none;
   }
 }
+
 /**the color intensity of the slider*/
 .slide__overlay path {
   opacity: 0.8;
